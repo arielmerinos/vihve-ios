@@ -7,20 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00153442B61702600560D38 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00153432B61702600560D38 /* HomeView.swift */; };
+		B00153472B61AD3F00560D38 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00153462B61AD3F00560D38 /* Launch Screen.storyboard */; };
+		B001DF742B61B9B70074155E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001DF732B61B9B70074155E /* Tab.swift */; };
+		B06DA0382B63605200EFA64E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06DA0372B63605200EFA64E /* Package.swift */; };
 		B0C18D192B586D8400C3D373 /* VIHve_LibreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */; };
 		B0C18D1B2B586D8400C3D373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D1A2B586D8400C3D373 /* ContentView.swift */; };
 		B0C18D1D2B586D8400C3D373 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D1C2B586D8400C3D373 /* Item.swift */; };
 		B0C18D1F2B586D8500C3D373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C18D1E2B586D8500C3D373 /* Assets.xcassets */; };
 		B0C18D222B586D8500C3D373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C18D212B586D8500C3D373 /* Preview Assets.xcassets */; };
+		B0CA6C532B63E0DE001FDB43 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CA6C522B63E0DE001FDB43 /* AddUserView.swift */; };
+		B0CA6C552B63FD7D001FDB43 /* LogoPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CA6C542B63FD7D001FDB43 /* LogoPathView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B06DA01E2B635B0600EFA64E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B00153432B61702600560D38 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B00153462B61AD3F00560D38 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B001DF732B61B9B70074155E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		B06DA0372B63605200EFA64E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B0C18D152B586D8400C3D373 /* VIHve Libre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIHve Libre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIHve_LibreApp.swift; sourceTree = "<group>"; };
 		B0C18D1A2B586D8400C3D373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0C18D1C2B586D8400C3D373 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B0C18D1E2B586D8500C3D373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0C18D212B586D8500C3D373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0CA6C522B63E0DE001FDB43 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		B0CA6C542B63FD7D001FDB43 /* LogoPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoPathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00153452B61703500560D38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B00153432B61702600560D38 /* HomeView.swift */,
+				B0CA6C522B63E0DE001FDB43 /* AddUserView.swift */,
+				B0CA6C542B63FD7D001FDB43 /* LogoPathView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B001DF722B61B97A0074155E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B001DF732B61B9B70074155E /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B0C18D0C2B586D8400C3D373 = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +96,16 @@
 		B0C18D172B586D8400C3D373 /* VIHve Libre */ = {
 			isa = PBXGroup;
 			children = (
+				B0CA6C4D2B63D8AD001FDB43 /* Packages */,
+				B001DF722B61B97A0074155E /* Model */,
+				B00153452B61703500560D38 /* View */,
 				B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */,
 				B0C18D1A2B586D8400C3D373 /* ContentView.swift */,
+				B00153462B61AD3F00560D38 /* Launch Screen.storyboard */,
 				B0C18D1C2B586D8400C3D373 /* Item.swift */,
 				B0C18D1E2B586D8500C3D373 /* Assets.xcassets */,
 				B0C18D202B586D8500C3D373 /* Preview Content */,
+				B06DA0372B63605200EFA64E /* Package.swift */,
 			);
 			path = "VIHve Libre";
 			sourceTree = "<group>";
@@ -70,6 +118,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B0CA6C4D2B63D8AD001FDB43 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,12 +135,15 @@
 				B0C18D112B586D8400C3D373 /* Sources */,
 				B0C18D122B586D8400C3D373 /* Frameworks */,
 				B0C18D132B586D8400C3D373 /* Resources */,
+				B06DA01E2B635B0600EFA64E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "VIHve Libre";
+			packageProductDependencies = (
+			);
 			productName = "VIHve Libre";
 			productReference = B0C18D152B586D8400C3D373 /* VIHve Libre.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +172,11 @@
 				Base,
 			);
 			mainGroup = B0C18D0C2B586D8400C3D373;
+			packageReferences = (
+				B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B0CA6C4E2B63DC64001FDB43 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				B0CA6C512B63DFD3001FDB43 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
+			);
 			productRefGroup = B0C18D162B586D8400C3D373 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00153472B61AD3F00560D38 /* Launch Screen.storyboard in Resources */,
 				B0C18D222B586D8500C3D373 /* Preview Assets.xcassets in Resources */,
 				B0C18D1F2B586D8500C3D373 /* Assets.xcassets in Resources */,
 			);
@@ -140,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06DA0382B63605200EFA64E /* Package.swift in Sources */,
+				B0CA6C532B63E0DE001FDB43 /* AddUserView.swift in Sources */,
 				B0C18D1B2B586D8400C3D373 /* ContentView.swift in Sources */,
+				B00153442B61702600560D38 /* HomeView.swift in Sources */,
+				B001DF742B61B9B70074155E /* Tab.swift in Sources */,
 				B0C18D1D2B586D8400C3D373 /* Item.swift in Sources */,
+				B0CA6C552B63FD7D001FDB43 /* LogoPathView.swift in Sources */,
 				B0C18D192B586D8400C3D373 /* VIHve_LibreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +256,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -250,6 +320,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -278,10 +349,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VIHve Libre/Preview Content\"";
 				DEVELOPMENT_TEAM = PUJJ5R9383;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -289,8 +362,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arielmerinos.VIHve-Libre";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_FRAMEWORK_NAMES = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,10 +382,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VIHve Libre/Preview Content\"";
 				DEVELOPMENT_TEAM = PUJJ5R9383;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,8 +395,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arielmerinos.VIHve-Libre";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_FRAMEWORK_NAMES = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,6 +427,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		B0CA6C4E2B63DC64001FDB43 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		B0CA6C512B63DFD3001FDB43 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUIRefresh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = B0C18D0D2B586D8400C3D373 /* Project object */;
 }
