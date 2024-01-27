@@ -174,7 +174,6 @@
 			mainGroup = B0C18D0C2B586D8400C3D373;
 			packageReferences = (
 				B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				B0CA6C4E2B63DC64001FDB43 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				B0CA6C512B63DFD3001FDB43 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
 			);
 			productRefGroup = B0C18D162B586D8400C3D373 /* Products */;
@@ -435,14 +434,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.20.0;
-			};
-		};
-		B0CA6C4E2B63DC64001FDB43 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.2;
 			};
 		};
 		B0CA6C512B63DFD3001FDB43 /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
