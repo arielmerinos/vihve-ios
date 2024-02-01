@@ -21,6 +21,7 @@ struct HomeView: View {
 			}
 			.onAppear{
 				fetchData()
+				print(data)
 			}
 		}
 		
@@ -28,7 +29,7 @@ struct HomeView: View {
 	}
 	
 	func fetchData(){
-		guard let url = URL(string: "http://192.168.100.11:8080/users/") else {return}
+		guard let url = URL(string: "http://10.211.0.200:8080/users/") else {return}
 		URLSession.shared.dataTask(with: url){ data, response, error in
 			if let error = error {
 				print("Network error: \(error.localizedDescription)")
@@ -40,10 +41,9 @@ struct HomeView: View {
 			}
 			do {
 				let users = try JSONDecoder().decode([User].self, from: data)
+				print(users)
 				DispatchQueue.main.async {
-					self.data = users.sorted(by: { user1, user2 in
-						user1.name < user2.name
-					})
+					self.data = users
 				}
 			} catch{
 				print("Catching some error")
