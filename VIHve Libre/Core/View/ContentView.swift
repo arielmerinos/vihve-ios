@@ -29,7 +29,7 @@ struct ContentView: View {
 				}
 				.tag("explore")
 				HStack{
-					Text("The home screen")
+					HomeView()
 				}
 				.tabItem {
 					Label("Home", systemImage: "house")

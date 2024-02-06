@@ -12,6 +12,9 @@
 		B001DF742B61B9B70074155E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001DF732B61B9B70074155E /* Tab.swift */; };
 		B048490D2B6B270D003F8CF4 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048490C2B6B270D003F8CF4 /* EmergencyView.swift */; };
 		B048490F2B6B32A3003F8CF4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048490E2B6B32A3003F8CF4 /* User.swift */; };
+		B055ECBD2B71748000F3AEDC /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECBC2B71748000F3AEDC /* MediaType.swift */; };
+		B055ECBF2B7174AF00F3AEDC /* MediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECBE2B7174AF00F3AEDC /* MediaContent.swift */; };
+		B055ECC12B71757800F3AEDC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECC02B71757800F3AEDC /* Post.swift */; };
 		B084E91C2B67917A00608FE0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B084E91B2B67917A00608FE0 /* TestView.swift */; };
 		B0C18D192B586D8400C3D373 /* VIHve_LibreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */; };
 		B0C18D1B2B586D8400C3D373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D1A2B586D8400C3D373 /* ContentView.swift */; };
@@ -40,7 +43,11 @@
 		B001DF732B61B9B70074155E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B048490C2B6B270D003F8CF4 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
 		B048490E2B6B32A3003F8CF4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B055ECBC2B71748000F3AEDC /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		B055ECBE2B7174AF00F3AEDC /* MediaContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaContent.swift; sourceTree = "<group>"; };
+		B055ECC02B71757800F3AEDC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B084E91B2B67917A00608FE0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		B090BBA02B6C78FE00795C1B /* VIHve-Libre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "VIHve-Libre-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B0C18D152B586D8400C3D373 /* VIHve Libre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIHve Libre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIHve_LibreApp.swift; sourceTree = "<group>"; };
 		B0C18D1A2B586D8400C3D373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 		B00153452B61703500560D38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B0C18D1A2B586D8400C3D373 /* ContentView.swift */,
 				B00153432B61702600560D38 /* HomeView.swift */,
 				B0CA6C522B63E0DE001FDB43 /* AddUserView.swift */,
 				B084E91B2B67917A00608FE0 /* TestView.swift */,
@@ -75,10 +83,39 @@
 		B001DF722B61B97A0074155E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B0C18D1C2B586D8400C3D373 /* Item.swift */,
 				B001DF732B61B9B70074155E /* Tab.swift */,
 				B048490E2B6B32A3003F8CF4 /* User.swift */,
+				B055ECBC2B71748000F3AEDC /* MediaType.swift */,
+				B055ECBE2B7174AF00F3AEDC /* MediaContent.swift */,
+				B055ECC02B71757800F3AEDC /* Post.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B055ECC22B71A7B700F3AEDC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B055ECC32B71A7D300F3AEDC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B055ECC42B71A80800F3AEDC /* ViewModel */,
+				B001DF722B61B97A0074155E /* Model */,
+				B00153452B61703500560D38 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B055ECC42B71A80800F3AEDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		B0C18D0C2B586D8400C3D373 = {
@@ -100,12 +137,10 @@
 		B0C18D172B586D8400C3D373 /* VIHve Libre */ = {
 			isa = PBXGroup;
 			children = (
-				B001DF722B61B97A0074155E /* Model */,
-				B00153452B61703500560D38 /* View */,
-				B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */,
-				B0C18D1A2B586D8400C3D373 /* ContentView.swift */,
+				B055ECC32B71A7D300F3AEDC /* Core */,
+				B055ECC22B71A7B700F3AEDC /* App */,
+				B090BBA02B6C78FE00795C1B /* VIHve-Libre-Info.plist */,
 				B00153462B61AD3F00560D38 /* Launch Screen.storyboard */,
-				B0C18D1C2B586D8400C3D373 /* Item.swift */,
 				B0C18D1E2B586D8500C3D373 /* Assets.xcassets */,
 				B0C18D202B586D8500C3D373 /* Preview Content */,
 			);
@@ -198,11 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B055ECBD2B71748000F3AEDC /* MediaType.swift in Sources */,
 				B048490D2B6B270D003F8CF4 /* EmergencyView.swift in Sources */,
 				B084E91C2B67917A00608FE0 /* TestView.swift in Sources */,
+				B055ECC12B71757800F3AEDC /* Post.swift in Sources */,
 				B0CA6C532B63E0DE001FDB43 /* AddUserView.swift in Sources */,
 				B0C18D1B2B586D8400C3D373 /* ContentView.swift in Sources */,
 				B00153442B61702600560D38 /* HomeView.swift in Sources */,
+				B055ECBF2B7174AF00F3AEDC /* MediaContent.swift in Sources */,
 				B048490F2B6B32A3003F8CF4 /* User.swift in Sources */,
 				B001DF742B61B9B70074155E /* Tab.swift in Sources */,
 				B0C18D1D2B586D8400C3D373 /* Item.swift in Sources */,
@@ -346,6 +384,7 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VIHve-Libre-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -379,6 +418,7 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VIHve-Libre-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
