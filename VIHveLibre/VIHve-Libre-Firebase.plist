@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDj9j7bGdvE1hF8M7CH637Qa1Yi0obI8Lo</string>
+	<string>AIzaSyBhBbUEBEyyc7x2kpcsDyzswg-fD3divn0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>749666494416</string>
+	<string>51573968855</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.arielmerinos.publicart</string>
+	<string>com.vihvelibre.app</string>
 	<key>PROJECT_ID</key>
-	<string>appsear-1997</string>
+	<string>vihve-libre-19ffb</string>
 	<key>STORAGE_BUCKET</key>
-	<string>appsear-1997.appspot.com</string>
+	<string>vihve-libre-19ffb.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,8 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:749666494416:ios:82eb5d2277772690727bd5</string>
-	<key>DATABASE_URL</key>
-	<string>https://appsear-1997.firebaseio.com</string>
+	<string>1:51573968855:ios:49eead7282be85bf490592</string>
 </dict>
 </plist>

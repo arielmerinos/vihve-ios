@@ -11,9 +11,9 @@ struct UserModel: Codable, Hashable{
 	var id: UUID = UUID()
 	var name: String
 	var username: String
-	var isActive: Bool
-	var img: String
-	var followers: Int
+//	var isActive: Bool
+//	var img: String
+//	var followers: Int
 }
 
 

@@ -12,9 +12,15 @@
 		B001DF742B61B9B70074155E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001DF732B61B9B70074155E /* Tab.swift */; };
 		B048490D2B6B270D003F8CF4 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048490C2B6B270D003F8CF4 /* EmergencyView.swift */; };
 		B048490F2B6B32A3003F8CF4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048490E2B6B32A3003F8CF4 /* User.swift */; };
+		B04E89FB2B8094A80005A2C4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B04E89FA2B8094A80005A2C4 /* FirebaseAnalytics */; };
+		B04E89FD2B8094A80005A2C4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = B04E89FC2B8094A80005A2C4 /* FirebaseAnalyticsOnDeviceConversion */; };
+		B04E89FF2B8094A80005A2C4 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B04E89FE2B8094A80005A2C4 /* FirebaseAnalyticsSwift */; };
+		B04E8A012B8094A80005A2C4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = B04E8A002B8094A80005A2C4 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		B04E8A032B8094A80005A2C4 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = B04E8A022B8094A80005A2C4 /* FirebaseAppCheck */; };
 		B055ECBD2B71748000F3AEDC /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECBC2B71748000F3AEDC /* MediaType.swift */; };
 		B055ECBF2B7174AF00F3AEDC /* MediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECBE2B7174AF00F3AEDC /* MediaContent.swift */; };
 		B055ECC12B71757800F3AEDC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055ECC02B71757800F3AEDC /* Post.swift */; };
+		B05848502B809BAE009E6452 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B058484F2B809BAE009E6452 /* GoogleService-Info.plist */; };
 		B084E91C2B67917A00608FE0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B084E91B2B67917A00608FE0 /* TestView.swift */; };
 		B0C18D192B586D8400C3D373 /* VIHve_LibreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */; };
 		B0C18D1B2B586D8400C3D373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C18D1A2B586D8400C3D373 /* ContentView.swift */; };
@@ -46,9 +52,9 @@
 		B055ECBC2B71748000F3AEDC /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		B055ECBE2B7174AF00F3AEDC /* MediaContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaContent.swift; sourceTree = "<group>"; };
 		B055ECC02B71757800F3AEDC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B058484F2B809BAE009E6452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B084E91B2B67917A00608FE0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		B090BBA02B6C78FE00795C1B /* VIHve-Libre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "VIHve-Libre-Info.plist"; sourceTree = SOURCE_ROOT; };
-		B0C18D152B586D8400C3D373 /* VIHve Libre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIHve Libre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C18D152B586D8400C3D373 /* VIHveLibre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIHveLibre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C18D182B586D8400C3D373 /* VIHve_LibreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIHve_LibreApp.swift; sourceTree = "<group>"; };
 		B0C18D1A2B586D8400C3D373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0C18D1C2B586D8400C3D373 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -62,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04E89FF2B8094A80005A2C4 /* FirebaseAnalyticsSwift in Frameworks */,
+				B04E89FB2B8094A80005A2C4 /* FirebaseAnalytics in Frameworks */,
+				B04E89FD2B8094A80005A2C4 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				B04E8A032B8094A80005A2C4 /* FirebaseAppCheck in Frameworks */,
+				B04E8A012B8094A80005A2C4 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +132,8 @@
 		B0C18D0C2B586D8400C3D373 = {
 			isa = PBXGroup;
 			children = (
-				B0C18D172B586D8400C3D373 /* VIHve Libre */,
+				B058484F2B809BAE009E6452 /* GoogleService-Info.plist */,
+				B0C18D172B586D8400C3D373 /* VIHveLibre */,
 				B0C18D162B586D8400C3D373 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,22 +141,21 @@
 		B0C18D162B586D8400C3D373 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0C18D152B586D8400C3D373 /* VIHve Libre.app */,
+				B0C18D152B586D8400C3D373 /* VIHveLibre.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0C18D172B586D8400C3D373 /* VIHve Libre */ = {
+		B0C18D172B586D8400C3D373 /* VIHveLibre */ = {
 			isa = PBXGroup;
 			children = (
 				B055ECC32B71A7D300F3AEDC /* Core */,
 				B055ECC22B71A7B700F3AEDC /* App */,
-				B090BBA02B6C78FE00795C1B /* VIHve-Libre-Info.plist */,
 				B00153462B61AD3F00560D38 /* Launch Screen.storyboard */,
 				B0C18D1E2B586D8500C3D373 /* Assets.xcassets */,
 				B0C18D202B586D8500C3D373 /* Preview Content */,
 			);
-			path = "VIHve Libre";
+			path = VIHveLibre;
 			sourceTree = "<group>";
 		};
 		B0C18D202B586D8500C3D373 /* Preview Content */ = {
@@ -158,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0C18D142B586D8400C3D373 /* VIHve Libre */ = {
+		B0C18D142B586D8400C3D373 /* VIHveLibre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0C18D252B586D8500C3D373 /* Build configuration list for PBXNativeTarget "VIHve Libre" */;
+			buildConfigurationList = B0C18D252B586D8500C3D373 /* Build configuration list for PBXNativeTarget "VIHveLibre" */;
 			buildPhases = (
 				B0C18D112B586D8400C3D373 /* Sources */,
 				B0C18D122B586D8400C3D373 /* Frameworks */,
@@ -171,11 +182,16 @@
 			);
 			dependencies = (
 			);
-			name = "VIHve Libre";
+			name = VIHveLibre;
 			packageProductDependencies = (
+				B04E89FA2B8094A80005A2C4 /* FirebaseAnalytics */,
+				B04E89FC2B8094A80005A2C4 /* FirebaseAnalyticsOnDeviceConversion */,
+				B04E89FE2B8094A80005A2C4 /* FirebaseAnalyticsSwift */,
+				B04E8A002B8094A80005A2C4 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				B04E8A022B8094A80005A2C4 /* FirebaseAppCheck */,
 			);
 			productName = "VIHve Libre";
-			productReference = B0C18D152B586D8400C3D373 /* VIHve Libre.app */;
+			productReference = B0C18D152B586D8400C3D373 /* VIHveLibre.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0C18D102B586D8400C3D373 /* Build configuration list for PBXProject "VIHve Libre" */;
+			buildConfigurationList = B0C18D102B586D8400C3D373 /* Build configuration list for PBXProject "VIHveLibre" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -210,7 +226,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0C18D142B586D8400C3D373 /* VIHve Libre */,
+				B0C18D142B586D8400C3D373 /* VIHveLibre */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00153472B61AD3F00560D38 /* Launch Screen.storyboard in Resources */,
+				B05848502B809BAE009E6452 /* GoogleService-Info.plist in Resources */,
 				B0C18D222B586D8500C3D373 /* Preview Assets.xcassets in Resources */,
 				B0C18D1F2B586D8500C3D373 /* Assets.xcassets in Resources */,
 			);
@@ -304,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -362,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -379,12 +396,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VIHve Libre/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VIHveLibre/Preview Content\"";
 				DEVELOPMENT_TEAM = PUJJ5R9383;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "VIHve-Libre-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -397,7 +414,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arielmerinos.publicart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vihvelibre.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REEXPORTED_FRAMEWORK_NAMES = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -413,12 +430,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VIHve Libre/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VIHveLibre/Preview Content\"";
 				DEVELOPMENT_TEAM = PUJJ5R9383;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "VIHve-Libre-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,7 +448,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arielmerinos.publicart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vihvelibre.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REEXPORTED_FRAMEWORK_NAMES = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -443,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0C18D102B586D8400C3D373 /* Build configuration list for PBXProject "VIHve Libre" */ = {
+		B0C18D102B586D8400C3D373 /* Build configuration list for PBXProject "VIHveLibre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0C18D232B586D8500C3D373 /* Debug */,
@@ -452,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0C18D252B586D8500C3D373 /* Build configuration list for PBXNativeTarget "VIHve Libre" */ = {
+		B0C18D252B586D8500C3D373 /* Build configuration list for PBXNativeTarget "VIHveLibre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0C18D262B586D8500C3D373 /* Debug */,
@@ -481,6 +498,34 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B04E89FA2B8094A80005A2C4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B04E89FC2B8094A80005A2C4 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		B04E89FE2B8094A80005A2C4 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		B04E8A002B8094A80005A2C4 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		B04E8A022B8094A80005A2C4 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0CA6C3F2B63D6CB001FDB43 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B0C18D0D2B586D8400C3D373 /* Project object */;
 }

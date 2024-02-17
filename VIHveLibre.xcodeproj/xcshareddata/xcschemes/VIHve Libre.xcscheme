@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0C18D142B586D8400C3D373"
-               BuildableName = "VIHve Libre.app"
-               BlueprintName = "VIHve Libre"
-               ReferencedContainer = "container:VIHve Libre.xcodeproj">
+               BuildableName = "VIHveLibre.app"
+               BlueprintName = "VIHveLibre"
+               ReferencedContainer = "container:VIHveLibre.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0C18D142B586D8400C3D373"
-            BuildableName = "VIHve Libre.app"
-            BlueprintName = "VIHve Libre"
-            ReferencedContainer = "container:VIHve Libre.xcodeproj">
+            BuildableName = "VIHveLibre.app"
+            BlueprintName = "VIHveLibre"
+            ReferencedContainer = "container:VIHveLibre.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0C18D142B586D8400C3D373"
-            BuildableName = "VIHve Libre.app"
-            BlueprintName = "VIHve Libre"
-            ReferencedContainer = "container:VIHve Libre.xcodeproj">
+            BuildableName = "VIHveLibre.app"
+            BlueprintName = "VIHveLibre"
+            ReferencedContainer = "container:VIHveLibre.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
