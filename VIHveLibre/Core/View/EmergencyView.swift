@@ -23,9 +23,9 @@ struct EmergencyButton: View{
 				.padding()
 				.background(
 					LinearGradient(
-						colors: [._400, ._600],
-						startPoint: .bottom,
-						endPoint: .top)
+						colors: [._400, ._500],
+						startPoint: .top,
+						endPoint: .bottom)
 				)
 				.clipShape(RoundedRectangle(cornerRadius: 12))
 		}

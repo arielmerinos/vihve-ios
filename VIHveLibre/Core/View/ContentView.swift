@@ -10,48 +10,33 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
 	@State var DEFAULT_HOME: String  = "home"
+	/// View Properties
+	@State private var activeTab: Tab = .home
 
 	var body: some View {
-		TabView(selection: $DEFAULT_HOME ){
-			Group{
-				EmergencyView()
-					.tabItem {
-						Label("Emergency", systemImage: "sos.circle")
-					}
-					.tag("sos")
-				HStack{
-					Text("This is part 1")
+		NavigationStack{
+			VStack(spacing: 15){
+				SegmentedControl(
+					tabs: Tab.allCases,
+					activeTab: $activeTab,
+					font: .body,
+					activeTint: ._500,
+					inactiveTint: .gray.opacity(0.5)
+				){ size in
+					Rectangle()
+						.fill(.blue)
+						.frame(height: 4)
+						.padding(.horizontal, 10)
+						.frame(maxHeight: .infinity, alignment: .bottom)
+					
 				}
-				.tabItem {
-					Label("Explore", systemImage: "safari")
-				}
-				.tag("explore")
-				HStack{
-					HomeView()
-				}
-				.tabItem {
-					Label("Home", systemImage: "house")
-				}
-				.tag("home")
-				HStack{
-					Text("This is part 1")
-				}
-				.tabItem {
-					Label("Events", systemImage: "calendar.circle")
-				}
-				.tag("events")
-				HStack{
-					Text("This is part 1")
-				}.tabItem {
-					Label("Me", systemImage: "person.crop.circle")
-						.background(.blue)
-				}
-				.tag("profile")
+				
+				Spacer(minLength: 0)
+				
 			}
-			.toolbarBackground(.visible, for: .tabBar)
-			.toolbarBackground(.visible, for: .tabBar)
+			.navigationTitle("VIHve Libre")
+
 		}
 	}
 }

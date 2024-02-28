@@ -8,11 +8,11 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable{
-	case home = "Home"
 	case explore = "Explore"
-	case sos = "Emergency"
-	case profile = "Me"
+	case sos = "SOS"
+	case home = "Home"
 	case events = "Events"
+	case profile = "Me"
 	
 	
 	var systemImage: String {

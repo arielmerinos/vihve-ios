@@ -45,7 +45,6 @@ struct AddUserView: View {
 			.foregroundStyle(.white)
 			.fontWeight(.semibold)
 			.clipShape(RoundedRectangle(cornerRadius: 12))
-//			.buttonStyle(.borderedProminent)
 		}.padding()
     }
 	
